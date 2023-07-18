@@ -1,0 +1,37 @@
+:root {
+    --background-color: white;
+    --color: black;
+    --accent-color: #A8FBFF;
+    --font-family: 'roboto-mono', monospace;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--color);
+
+    font-family: var(--font-family);
+}
+
+textarea {
+    resize: none;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+main {
+    display: grid;
+    place-content: center;
+    width: 100%;
+    gap: 10px;
+}
+
+#answers {
+    height: 300px;
+}
+
+#answer {
+    display: grid;
+}
